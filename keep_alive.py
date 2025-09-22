@@ -2,7 +2,7 @@ import time
 import requests
 
 # Replace with your panel/site URL
-url = "https://your-panel.com/heartbeat"
+url = "https://idx.google.com/vps123-49539420"
 
 while True:
     try:
@@ -11,3 +11,4 @@ while True:
     except Exception as e:
         print(f"Error: {e}")
     time.sleep(240)  # Wait 4 minutes before next ping
+
